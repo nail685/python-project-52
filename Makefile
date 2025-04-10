@@ -1,11 +1,11 @@
 install:
 	uv sync
 
-migrate:
-	uv run manage.py migrate
-
 migrations:
 	uv run python manage.py makemigrations
+
+migrate:
+	uv run manage.py migrate
 
 build:
 	./build.sh
