@@ -1,0 +1,26 @@
+[
+    {
+        "model": "user.User",
+        "pk": 1,
+        "fields": {
+            "first_name": "Vasya",
+            "last_name": "Ivanov",
+            "username": "Gamer",
+            "password1": "qwerty123!",
+            "password2": "qwerty123!",
+            "created_at": "2025-04-21"
+        }
+    },
+    {
+        "model": "user.User",
+        "pk": 2,
+        "fields": {
+            "first_name": "Ivan",
+            "last_name": "Ivanov",
+            "username": "Ivan",
+            "password1": "asdf123!",
+            "password2": "asdf123!",
+            "created_at": "2025-04-22"
+        } 
+    }
+]

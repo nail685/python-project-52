@@ -1,0 +1,19 @@
+[
+    {
+        "model": "status.Status",
+        "pk": 1,
+        "fields": {
+            "name": "Medium rear",
+
+            "created_at": "2025-04-21"
+        }
+    },
+    {
+        "model": "status.Status",
+        "pk": 2,
+        "fields": {
+            "name": "Well done",
+            "created_at": "2025-04-21"
+        } 
+    }
+]

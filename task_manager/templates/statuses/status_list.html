@@ -1,0 +1,41 @@
+{% extends 'home.html' %}
+
+{% load i18n %}
+
+{% block main %}
+<div class="container wrapper flex-grow-1">
+      
+    <h1 class="my-4">
+        {{ title }}
+    </h1>
+    <a href="{% url "create_status" %}">
+      <button class="btn btn-primary mb-3" >{{ button }}</button>
+    </a>
+
+<table class="table table-striped">
+<thead>
+  <tr>
+    <th>{% translate "ID" %}</th>
+    <th>{% translate "Name" %}</th>
+    <th>{% translate "Created date" %}</th>
+  </tr>
+</thead>
+<tbody>
+  {%for status in statuses%}
+    <tr>
+      <td>{{status.id}}</td>
+      <td>{{status.name}}</td>
+      <td>{{status.created_at|date:'d.m.Y H:i' }}</td>
+      <td>
+        <a href="{% url "update_status" status.id %}">{% translate "Edit"%}</a>
+        <br>
+        <a href="{% url "delete_status" status.id %}">{% translate "Delete"%}</a>
+      </td>
+    </form>
+    </tr>
+  {% endfor%}
+</tbody>
+</table>
+
+  </div>
+{% endblock %}
