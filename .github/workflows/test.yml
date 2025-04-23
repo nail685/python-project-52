@@ -22,20 +22,6 @@ jobs:
       - name: Run linter and pytest
         run: |
           make check
-      - name: Run Tests
-        env:
-          SECRET_KEY: ${{ secrets.SECRET_KEY }}
-        run: |
-          pip install django
-          pip install dj_database_url
-          pip install load_dotenv
-          pip install django_bootstrap5
-          pip install psycopg2-binary
-          pip install django-filter
-          pip install rollbar
-          pip install whitenoise
-          pip install pytest-django
-          make tests
       - name: Test & publish code coverage
         uses: qltysh/qlty-action/coverage@v1
         with:
