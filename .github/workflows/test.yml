@@ -9,7 +9,6 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        # we want to test our package on several versions of Python
         python-version: [3.11]
     steps:
       - uses: actions/checkout@v4
@@ -17,7 +16,6 @@ jobs:
         uses: actions/setup-python@v4
         with:
           python-version: ${{ matrix.python-version }}
-        # make depends on poetry
       - name: Install dependencies
         run: |
           make install
@@ -39,10 +37,8 @@ jobs:
           pip install pytest-django
           make tests
       - name: Test & publish code coverage
-        uses: paambaati/codeclimate-action@v5.0.0
-        if: github.ref_name == 'main'
-        env:
-          CC_TEST_REPORTER_ID: ${{ secrets.CC_TEST_REPORTER_ID }}
+        uses: qltysh/qlty-action/coverage@v1
         with:
-          coverageCommand: make tests-cov
-          debug: true
+          token: qltcp_Qq8tyaQerUc3msyt
+          files: reports/lcov.info
+      
