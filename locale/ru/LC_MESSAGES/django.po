@@ -64,7 +64,7 @@ msgstr "Создать метку"
 
 #: .\task_manager\labels\views.py:26
 msgid "Label created successfully"
-msgstr "Метка создана успешно"
+msgstr "Метка успешно создана"
 
 #: .\task_manager\labels\views.py:27 .\task_manager\statuses\views.py:27
 #: .\task_manager\tasks\views.py:28
