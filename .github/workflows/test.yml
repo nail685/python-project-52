@@ -18,6 +18,7 @@ jobs:
           python-version: ${{ matrix.python-version }}
       - name: Install dependencies
         run: |
+          pip install uv ruff pytest
           make install
       - name: Run linter and pytest
         run: |
