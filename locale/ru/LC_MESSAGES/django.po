@@ -112,8 +112,6 @@ msgid "You haven't permission for changing another user."
 msgstr "У вас нет прав для изменения другого пользователя."
 
 #: .\task_manager\mixins.py:49
-#, fuzzy
-#| msgid "The task can only be deleted by its author."
 msgid "The task can only be deleted by it's author."
 msgstr "Задачу может удалить только ее автор"
 
