@@ -31,7 +31,7 @@ msgstr "Пароль"
 
 #: .\task_manager\labels\models.py:7
 msgid "Label name"
-msgstr "Название метки"
+msgstr "Имя"
 
 #: .\task_manager\labels\models.py:9 .\task_manager\statuses\models.py:9
 #: .\task_manager\tasks\models.py:43
@@ -119,7 +119,7 @@ msgstr "Задачу может удалить только ее автор"
 
 #: .\task_manager\statuses\models.py:7
 msgid "Status name"
-msgstr "Название статуса"
+msgstr "Имя"
 
 #: .\task_manager\statuses\models.py:15
 #, fuzzy
@@ -176,7 +176,7 @@ msgstr "Метка"
 #: .\task_manager\tasks\models.py:11
 #: .\task_manager\templates\tasks\task_list.html:29
 msgid "Task name"
-msgstr "Название задачи"
+msgstr "Имя"
 
 #: .\task_manager\tasks\models.py:13
 msgid "Description"
