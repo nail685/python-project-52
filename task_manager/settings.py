@@ -159,7 +159,6 @@ STORAGES = {
 # Internationalization
 # https://docs.djangoproject.com/en/5.1/topics/i18n/
 
-# LANGUAGE_CODE = 'en'
 LANGUAGE_CODE = 'ru'
 TIME_ZONE = 'UTC'
 
@@ -194,4 +193,11 @@ ROLLBAR = {
     "environment": "development" if DEBUG else "production",
     "code_version": "1.0",
     "root": BASE_DIR,
+}
+
+ROLLBAR = {
+    'access_token': '7e7d541fb57043c194e8da48f123eeec',
+    'environment': 'development' if DEBUG else 'production',
+    'code_version': '1.0',
+    'root': BASE_DIR,
 }

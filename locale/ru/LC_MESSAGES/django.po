@@ -27,13 +27,11 @@ msgstr "Имя пользователя"
 
 #: .\task_manager\forms.py:18 .\task_manager\forms.py:21
 msgid "Password"
-msgstr ""
+msgstr "Пароль"
 
 #: .\task_manager\labels\models.py:7
-#, fuzzy
-#| msgid "Full name"
 msgid "Label name"
-msgstr "Полное имя"
+msgstr "Название метки"
 
 #: .\task_manager\labels\models.py:9 .\task_manager\statuses\models.py:9
 #: .\task_manager\tasks\models.py:43
@@ -61,10 +59,8 @@ msgid "Labels"
 msgstr "Метки"
 
 #: .\task_manager\labels\views.py:15 .\task_manager\labels\views.py:27
-#, fuzzy
-#| msgid "Created date"
 msgid "Create label"
-msgstr "Дата создания"
+msgstr "Создать метку"
 
 #: .\task_manager\labels\views.py:26
 msgid "Label created successfully"
@@ -72,10 +68,8 @@ msgstr "Метка создана успешно"
 
 #: .\task_manager\labels\views.py:27 .\task_manager\statuses\views.py:27
 #: .\task_manager\tasks\views.py:28
-#, fuzzy
-#| msgid "Created date"
 msgid "Create"
-msgstr "Дата создания"
+msgstr "Создать"
 
 #: .\task_manager\labels\views.py:32
 msgid "Label changed successfully"
@@ -124,10 +118,8 @@ msgid "The task can only be deleted by it's author."
 msgstr "Задачу может удалить только ее автор"
 
 #: .\task_manager\statuses\models.py:7
-#, fuzzy
-#| msgid "Statuses"
 msgid "Status name"
-msgstr "Статус"
+msgstr "Название статуса"
 
 #: .\task_manager\statuses\models.py:15
 #, fuzzy
@@ -146,10 +138,8 @@ msgid "Statuses"
 msgstr "Статусы"
 
 #: .\task_manager\statuses\views.py:15 .\task_manager\statuses\views.py:27
-#, fuzzy
-#| msgid "Created date"
 msgid "Create status"
-msgstr "Дата создания"
+msgstr "Создать статус"
 
 #: .\task_manager\statuses\views.py:26
 msgid "Status created successfully"
@@ -185,10 +175,8 @@ msgstr "Метка"
 
 #: .\task_manager\tasks\models.py:11
 #: .\task_manager\templates\tasks\task_list.html:29
-#, fuzzy
-#| msgid "Task manager"
 msgid "Task name"
-msgstr "Менеджер задач"
+msgstr "Название задачи"
 
 #: .\task_manager\tasks\models.py:13
 msgid "Description"
@@ -197,10 +185,8 @@ msgstr "Описание"
 #: .\task_manager\tasks\models.py:18
 #: .\task_manager\templates\tasks\task_detail.html:25
 #: .\task_manager\templates\tasks\task_list.html:30
-#, fuzzy
-#| msgid "Statuses"
 msgid "Status"
-msgstr "Статусы"
+msgstr "Статус"
 
 #: .\task_manager\tasks\models.py:24
 #: .\task_manager\templates\tasks\task_detail.html:17
@@ -233,10 +219,8 @@ msgstr "Задачи"
 
 #: .\task_manager\tasks\views.py:14 .\task_manager\tasks\views.py:21
 #: .\task_manager\tasks\views.py:28
-#, fuzzy
-#| msgid "Created date"
 msgid "Create task"
-msgstr "Дата создания"
+msgstr "Создать задачу"
 
 #: .\task_manager\tasks\views.py:27
 msgid "Task created successfully"
