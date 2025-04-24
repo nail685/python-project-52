@@ -4,8 +4,8 @@
 {% load django_bootstrap5 %}
 
 {% block navigation %}
-<link href="static/assets/dist/css/bootstrap.min.css" rel="stylesheet">
-<link href="static/navbar.css" rel="stylesheet">
+{% comment %} <link href="static/assets/dist/css/bootstrap.min.css" rel="stylesheet"> {% endcomment %}
+{% comment %} <link href="/static/navbar.css" rel="stylesheet"> {% endcomment %}
 <header class="flex-shrink-0">
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark" aria-label="Fifth navbar example">
         <div class="container-fluid">
@@ -68,8 +68,8 @@
 
 
 {% block footer %}
-<link href="static/assets/dist/css/bootstrap.min.css" rel="stylesheet">
-<link href="static/footers.css" rel="stylesheet">
+{% comment %} <link href="/static/assets/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="/static/footers.css" rel="stylesheet"> {% endcomment %}
 
 <footer class="container">
     <div class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">

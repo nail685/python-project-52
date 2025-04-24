@@ -14,3 +14,7 @@ wheels/
 # Secret files
 .env
 db.sqlite3
+
+#Tests
+.coverage
+coverage.xml
