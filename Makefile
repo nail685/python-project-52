@@ -16,9 +16,6 @@ check:
 check-fix:
 	uv run ruff check --fix .
 
-test:
-	uv run manage.py test
-
 migrations:
 	python manage.py makemigrations
 
@@ -37,10 +34,9 @@ translate-compile:
 translate-makemessages:
 	django-admin makemessages -l ru
 
-tests:
-	python manage.py test
+test:
+	uv run manage.py test
 
 tests-cov:
 	uv run coverage run ./manage.py test
 	uv run coverage xml
-
