@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-23 17:28+0500\n"
+"POT-Creation-Date: 2025-04-24 19:04+0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,6 +19,15 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || "
 "(n%100>=11 && n%100<=14)? 2 : 3);\n"
+
+#: .\task_manager\forms.py:10 .\task_manager\forms.py:13
+#: .\task_manager\templates\users\user_list.html:16
+msgid "Username"
+msgstr "Имя пользователя"
+
+#: .\task_manager\forms.py:18 .\task_manager\forms.py:21
+msgid "Password"
+msgstr ""
 
 #: .\task_manager\labels\models.py:7
 #, fuzzy
@@ -46,57 +55,57 @@ msgid "=Labels="
 msgstr "Метки"
 
 #: .\task_manager\labels\views.py:15 .\task_manager\tasks\models.py:40
-#: .\task_manager\templates\index.html:40
+#: .\task_manager\templates\index.html:42
 #: .\task_manager\templates\tasks\task_detail.html:34
 msgid "Labels"
 msgstr "Метки"
 
-#: .\task_manager\labels\views.py:15 .\task_manager\labels\views.py:26
+#: .\task_manager\labels\views.py:15 .\task_manager\labels\views.py:27
 #, fuzzy
 #| msgid "Created date"
 msgid "Create label"
 msgstr "Дата создания"
 
-#: .\task_manager\labels\views.py:25
+#: .\task_manager\labels\views.py:26
 msgid "Label created successfully"
 msgstr "Метка создана успешно"
 
-#: .\task_manager\labels\views.py:26 .\task_manager\statuses\views.py:26
+#: .\task_manager\labels\views.py:27 .\task_manager\statuses\views.py:27
 #: .\task_manager\tasks\views.py:28
 #, fuzzy
 #| msgid "Created date"
 msgid "Create"
 msgstr "Дата создания"
 
-#: .\task_manager\labels\views.py:31
+#: .\task_manager\labels\views.py:32
 msgid "Label changed successfully"
 msgstr "Метка успешно изменена"
 
-#: .\task_manager\labels\views.py:33
+#: .\task_manager\labels\views.py:34
 msgid "Changing label"
 msgstr "Изменение метки"
 
-#: .\task_manager\labels\views.py:33 .\task_manager\statuses\views.py:33
+#: .\task_manager\labels\views.py:34 .\task_manager\statuses\views.py:34
 #: .\task_manager\tasks\views.py:43 .\task_manager\users\views.py:34
 msgid "Change"
 msgstr "Изменить"
 
-#: .\task_manager\labels\views.py:38
+#: .\task_manager\labels\views.py:39
 #, fuzzy
 #| msgid "Delete"
 msgid "Deleting label"
 msgstr "Удаление метки"
 
-#: .\task_manager\labels\views.py:38 .\task_manager\statuses\views.py:38
+#: .\task_manager\labels\views.py:39 .\task_manager\statuses\views.py:39
 #: .\task_manager\tasks\views.py:48 .\task_manager\users\views.py:46
 msgid "Yes, delete"
 msgstr "Да, удалить"
 
-#: .\task_manager\labels\views.py:43
+#: .\task_manager\labels\views.py:44
 msgid "Label was deleted successfully"
 msgstr "Метка успешно удалена"
 
-#: .\task_manager\labels\views.py:48
+#: .\task_manager\labels\views.py:49
 msgid "Can't delete, label in use"
 msgstr "Невозможно удалить метку, потому что она используется"
 
@@ -109,7 +118,9 @@ msgid "You haven't permission for changing another user."
 msgstr "У вас нет прав для изменения другого пользователя."
 
 #: .\task_manager\mixins.py:49
-msgid "The task can only be deleted by its author."
+#, fuzzy
+#| msgid "The task can only be deleted by its author."
+msgid "The task can only be deleted by it's author."
 msgstr "Задачу может удалить только ее автор"
 
 #: .\task_manager\statuses\models.py:7
@@ -130,37 +141,37 @@ msgstr "Статус"
 msgid "=Statuses="
 msgstr "Статусы"
 
-#: .\task_manager\statuses\views.py:15 .\task_manager\templates\index.html:37
+#: .\task_manager\statuses\views.py:15 .\task_manager\templates\index.html:39
 msgid "Statuses"
 msgstr "Статусы"
 
-#: .\task_manager\statuses\views.py:15 .\task_manager\statuses\views.py:26
+#: .\task_manager\statuses\views.py:15 .\task_manager\statuses\views.py:27
 #, fuzzy
 #| msgid "Created date"
 msgid "Create status"
 msgstr "Дата создания"
 
-#: .\task_manager\statuses\views.py:25
+#: .\task_manager\statuses\views.py:26
 msgid "Status created successfully"
 msgstr "Статус успешно создан"
 
-#: .\task_manager\statuses\views.py:31
+#: .\task_manager\statuses\views.py:32
 msgid "Status changed successfully"
 msgstr "Статус успешно изменен"
 
-#: .\task_manager\statuses\views.py:33
+#: .\task_manager\statuses\views.py:34
 msgid "Changing status"
 msgstr "Изменение статуса"
 
-#: .\task_manager\statuses\views.py:38
+#: .\task_manager\statuses\views.py:39
 msgid "Deleting status"
 msgstr "Удаление статуса"
 
-#: .\task_manager\statuses\views.py:43
+#: .\task_manager\statuses\views.py:44
 msgid "Status was deleted successfully"
 msgstr "Статус успешно удален"
 
-#: .\task_manager\statuses\views.py:48
+#: .\task_manager\statuses\views.py:49
 msgid "Can't delete, status in use"
 msgstr "Невозможно удалить статус, потому что он используется"
 
@@ -216,7 +227,7 @@ msgid "=Tasks="
 msgstr "Задачи"
 
 #: .\task_manager\tasks\views.py:14 .\task_manager\tasks\views.py:21
-#: .\task_manager\templates\index.html:43
+#: .\task_manager\templates\index.html:45
 msgid "Tasks"
 msgstr "Задачи"
 
@@ -267,27 +278,25 @@ msgstr "Практические курсы по программировани�
 msgid "To know is large"
 msgstr "Узнать больше"
 
-#: .\task_manager\templates\index.html:12
+#: .\task_manager\templates\index.html:14
 msgid "Task manager"
 msgstr "Менеджер задач"
 
-#: .\task_manager\templates\index.html:33
+#: .\task_manager\templates\index.html:35
 #: .\task_manager\templates\users\user_list.html:9
 #: .\task_manager\users\views.py:17
 msgid "Users"
 msgstr "Пользователи"
 
-#: .\task_manager\templates\index.html:46
+#: .\task_manager\templates\index.html:48
 msgid "Exit"
 msgstr "Выход"
 
-#: .\task_manager\templates\index.html:50
+#: .\task_manager\templates\index.html:52
 msgid "Sign in"
-msgstr "Регистрация"
+msgstr "Вход"
 
-#: .\task_manager\templates\index.html:53
-#, fuzzy
-#| msgid "Sign in"
+#: .\task_manager\templates\index.html:55
 msgid "Sign up"
 msgstr "Регистрация"
 
@@ -330,10 +339,6 @@ msgstr "Удалить"
 #: .\task_manager\templates\tasks\task_list.html:19
 msgid "Show"
 msgstr "Показать"
-
-#: .\task_manager\templates\users\user_list.html:16
-msgid "Username"
-msgstr "Имя пользователя"
 
 #: .\task_manager\templates\users\user_list.html:17
 msgid "Full name"
